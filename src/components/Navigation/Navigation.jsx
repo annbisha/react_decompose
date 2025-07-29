@@ -1,6 +1,6 @@
-import './Navigation.css';
+import './Navigation.css'; // ⬅️ обов’язково
 
-export default function Navigation() {
+function Navigation() {
   return (
     <nav className="navigation">
       <a className="navigation__link" href="#about">
@@ -15,3 +15,5 @@ export default function Navigation() {
     </nav>
   );
 }
+
+export default Navigation;
